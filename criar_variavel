@@ -5,8 +5,8 @@ int main () {
     // tipo nome;
     int idade = 29;
     int quantidade = 1;
-    float altura = 1,72;
-    double peso = 87,5
+    float altura = 1.72;
+    double peso = 87.5
     char letra = 'J';
     char nome[20] = "Jonathan";
 
