@@ -1,0 +1,38 @@
+//declarar a variavel
+#include <stdio.h>
+
+int main () {
+    // tipo nome;
+    int idade = 29;
+    int quantidade = 1;
+    float altura = 1,72;
+    double peso = 87,5
+    char letra = 'J';
+    char nome[20] = "Jonathan";
+
+}
+
+//foram feito caixas para amarzenar informações-
+//de acordo com nome e tipo
+//pode utilizar qualquer nome? não, existem regras.
+//deve utilizar nomes claros que facilitem a execução do programa
+//mas existem regras de variação de variaveis que devemos seguir
+//pode começar a variavel utilizando um sublinhado
+//não pode utilizar a variavel começando com número
+//case sensitive, sensível ao tipo de letra, maiuscula ou minuscula
+//por exemplo se criar Idade ou idade são variaveis diferentes
+//nao pode utilizar palavras reservadas, palavras que ja servem para algo no C como por exemplo int int
+//sempre usar nomes significativos
+
+//a palavra antes da variavel é o tipo de dado
+//o tipo de dado vai definir os valores que aquela variavel vai poder assumir ou amarzenar
+//int por exemplo, significa o tipo de dado inteiro "25 anos"
+//float "ponto flutuante, casas decimais para usar virgula, por exemplo 1.72m de altura"
+//double também vai amarzenar variavel decimais porém de maiores valores
+//char amarzenar caracteres (letra) um caracter apenas, deve ser colocado entre aspas simples ' '
+//char também pode amarzenar string, string = palavras, mas para trabalhar com string preciso definir uma rei, rei serve para definir o tamanho do nome (quantidade de caracter)
+//a variavel char amarzena 1 caracter mas quando crio rei de char entre colchetes, vou juntar varios caracteres para escrever alguma palavra
+
+//quando criamos a variavel, amarzena um espaço no pc, que pode ja ter sido ocupado por outro app, entao sempre temos que iniciar a variavel
+//É sempre bom iniciar a variavel, colocar o valor que eu tenho controle, para nao ter problema de execução inadequada do programa
+// iniciar as variaveis colocar um valor dentro da caixa
